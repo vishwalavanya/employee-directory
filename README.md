@@ -98,6 +98,11 @@ Since this is a **fully static frontend** app (as allowed in the PDF), the `.ftl
 
 ## 📸 Preview
 
+<img width="1848" height="877" alt="Screenshot 2025-07-12 124611" src="https://github.com/user-attachments/assets/9e6bff3a-9b05-4e80-ae60-e3e581548f60" />
+<img width="944" height="855" alt="Screenshot 2025-07-12 122447" src="https://github.com/user-attachments/assets/6cabd15d-711f-478e-872d-f710619d0584" />
+
+
+
 > You can optionally add a GIF/screenshot preview here!
 
 ![Preview](https://via.placeholder.com/800x400.png?text=Live+Preview+Coming+Soon)
