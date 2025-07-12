@@ -1,0 +1,219 @@
+/* === GLOBAL RESET === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #a9d5db, #90d4e3);
+  color: #2e3c40;
+  min-height: 100vh;
+  padding: 2vh;
+
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  font-size: 2.5rem;
+  color: #1565c0;
+}
+
+/* === Dark Mode Toggle Button === */
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background: #1565c0;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background: #003c8f;
+}
+
+body.dark #theme-toggle {
+  background-color: #ffb300;
+  color: #000;
+}
+
+/* === Search Bar === */
+.search-wrapper {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.search-wrapper input {
+  width: 80%;
+  max-width: 400px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* === Employee Form === */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.form-buttons button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-buttons button:hover {
+  background: #218838;
+}
+
+/* === Employee Card Grid === */
+#employee-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem; /* Adds spacing between cards (both row & column) */
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 10px;
+}
+
+/* === Employee Cards === */
+.employee-card {
+  background: #eaf9ff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: transform 0.2s ease;
+  width: 100%;
+  margin: 10px; /* ✅ Add this line to give spacing in ALL screen sizes */
+}
+
+.employee-card:hover {
+  transform: scale(1.02);
+}
+
+.employee-card h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #0d47a1;
+  margin-bottom: 0.5rem;
+}
+
+.employee-card p {
+  text-align: left;
+  margin: 0.2rem 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.employee-card .button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.employee-card .button-group button {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.employee-card .button-group button:hover {
+  background-color: #0056b3;
+}
+
+/* === DARK MODE === */
+body.dark {
+  background: #121212;
+  color: #f0f0f0;
+}
+
+body.dark .search-wrapper input,
+body.dark input {
+  background-color: #2e2e2e;
+  color: white;
+  border: 1px solid #444;
+}
+
+body.dark form {
+  background-color: #1f1f1f;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+body.dark .employee-card {
+  background-color: #b7dae8;
+  color: #000;
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.05);
+  margin: 10px; /* ✅ Ensures margin in dark mode too */
+}
+
+
+body.dark .employee-card p {
+  color: #000;
+}
+
+body.dark .employee-card h3 {
+  color: #0d47a1;
+}
+
+body.dark .employee-card .button-group button {
+  background-color: #007bff;
+  color: white;
+}
+
+body.dark .employee-card .button-group button:hover {
+  background-color: #0056b3;
+}
+
+body.dark .form-buttons button {
+  background-color: #006400;
+  color: white;
+}

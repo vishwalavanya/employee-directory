@@ -1,0 +1,52 @@
+/* Layout for employee card list */
+#employee-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 10vh;
+}
+
+/* Employee form styling */
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: rgba(255, 254, 254, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 23px 10px black;
+  padding: 3vh;
+}
+
+/* Dark Mode Toggle - fixed top-right */
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  background: #ffffff;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+/* Dark mode styling for toggle */
+body.dark #theme-toggle {
+  background: #2c2c2c;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+}
+#employee-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem; /* Controls spacing between grid items */
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 10vh;
+}
+

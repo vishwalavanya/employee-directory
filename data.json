@@ -1,0 +1,100 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "email": "rahul.sharma@example.com",
+      "department": "HR",
+      "role": "Manager"
+    },
+    {
+      "id": 2,
+      "firstName": "Anjali",
+      "lastName": "Verma",
+      "email": "anjali.verma@example.com",
+      "department": "IT",
+      "role": "Developer"
+    },
+    {
+      "id": 3,
+      "firstName": "Vikram",
+      "lastName": "Reddy",
+      "email": "vikram.reddy@example.com",
+      "department": "Finance",
+      "role": "Accountant"
+    },
+    {
+      "id": 4,
+      "firstName": "Neha",
+      "lastName": "Patel",
+      "email": "neha.patel@example.com",
+      "department": "Marketing",
+      "role": "Executive"
+    },
+    {
+      "id": 5,
+      "firstName": "Amit",
+      "lastName": "Joshi",
+      "email": "amit.joshi@example.com",
+      "department": "Sales",
+      "role": "Salesperson"
+    },
+    {
+      "id": 6,
+      "firstName": "Pooja",
+      "lastName": "Iyer",
+      "email": "pooja.iyer@example.com",
+      "department": "Admin",
+      "role": "Assistant"
+    },
+    {
+      "id": 7,
+      "firstName": "Siddharth",
+      "lastName": "Kapoor",
+      "email": "siddharth.kapoor@example.com",
+      "department": "IT",
+      "role": "UI/UX Designer"
+    },
+    {
+      "id": 8,
+      "firstName": "Kavita",
+      "lastName": "Deshmukh",
+      "email": "kavita.deshmukh@example.com",
+      "department": "HR",
+      "role": "Recruiter"
+    },
+    {
+      "id": 9,
+      "firstName": "Rohan",
+      "lastName": "Mishra",
+      "email": "rohan.mishra@example.com",
+      "department": "Operations",
+      "role": "Coordinator"
+    },
+    {
+      "id": 10,
+      "firstName": "Divya",
+      "lastName": "Bhatia",
+      "email": "divya.bhatia@example.com",
+      "department": "Finance",
+      "role": "Analyst"
+    },
+    {
+      "id": 11,
+      "firstName": "Manoj",
+      "lastName": "Kumar",
+      "email": "manoj.kumar@example.com",
+      "department": "IT",
+      "role": "System Admin"
+    },
+    {
+      "id": 12,
+      "firstName": "Sneha",
+      "lastName": "Mehra",
+      "email": "sneha.mehra@example.com",
+      "department": "Support",
+      "role": "Customer Service"
+    }
+  ]
+}
